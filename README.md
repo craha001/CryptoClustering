@@ -26,6 +26,9 @@ scaled PCA data.
 
 ### Step 5: Find the Best Value for k Using the PCA DataFrame
 
+Similar to step two but this time performed the same code for the PCA dataframe that was created. This allowed us to perform another elbow curve and find again that the most optimal 
+K-value was 4.
+
 ### Step 6: Cluster Cryptocurrencies with K-means Using the PCA DataFrame
 
 ## Analysis Questions Answers:
