@@ -29,14 +29,26 @@ versus the 7 day period.
 This step a PCA is performed on the orginal scaled DataFrame to find total explained variance of the three principal components and create a new DataFrame with the 
 scaled PCA data.
 
+### Question: What is the total explained variance of the three principal components?
+### Answer: The total explained variance ratio is: 0.8950316570309841
+
 ## **Section 5: Find the Best Value for k Using the PCA DataFrame**
 
 Similar to section two but this time performed the same code for the PCA dataframe that was created. This allowed us to perform another elbow curve and find again that the most optimal 
 K-value was 4.
 
+### Question: What is the best value for `k` when using the PCA data?
+### Answer: Again the graph seems like a k value of 4 is the best.
+
+### Question: Does it differ from the best k value found using the original data?
+### Answer: No it does not.
+
 ## **Section 6: Cluster Cryptocurrencies with K-means Using the PCA DataFrame**
 
 Repeat of section 3, again this time using the PCA dataframe and comparing PCA1 versus PCA2 columns then performing a scattterplot for the clusters.
 
+## **Section 7: Visual and Compare the Results** 
+In this section, we plotted the two elbow curves and the two scatter plots against each other. 
+![image](https://github.com/user-attachments/assets/659102c6-b290-4e9d-ac90-4fccb244596f)
 
 
