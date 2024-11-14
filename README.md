@@ -54,5 +54,5 @@ In this section, we plotted the two elbow curves and the two scatter plots again
 ![image](https://github.com/user-attachments/assets/68ffebff-d246-44fb-804d-cd9c02d69923)
 
 ### Question:  After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
-### Answer:  I believe if fewer clusters were used those random outliers that formed their own one point cluster would be apart of a different cluster group and make the data look cleaner.
+### Answer:  I believe if fewer clusters were used those random outliers that formed their own one point cluster would be apart of a different cluster group and make the data look cleaner. Which can be seen in the scatter plot comparisons above, by looking at PC1 vs. PC2 those three clusters versus four clusters looks more organized.
 
